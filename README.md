@@ -1,23 +1,25 @@
-Rails 3, RSpec, Factory Girl, Haml, and jQuery
+Rails 3, RSpec, Factory Girl, and jQuery
 ==============================================
 
-Easily generate a Rails 3 beta 4 application with RSpec, Factory Girl, Haml, and
+### lifted from http://github.com/leshill/rails3-app
+
+Easily generate a Rails 3 beta 4 application with RSpec, Factory Girl, and
 jQuery in one line:
 
     % rails new my_app -J -T -m \
-    http://github.com/leshill/rails3-app/raw/master/app.rb
+    http://github.com/george/rails3-app/raw/master/app.rb
 
 ### Rails 3 beta 3 or earlier?
 
     % rails my_app -J -T -m \
-    http://github.com/leshill/rails3-app/raw/master/app.rb
+    http://github.com/george/rails3-app/raw/master/app.rb
 
 ## Need Cucumber?
 
 Use this generator file instead:
 
     % rails new my_app -J -T -m \
-    http://github.com/leshill/rails3-app/raw/master/cuke.rb
+    http://github.com/george/rails3-app/raw/master/cuke.rb
 
 rvm
 ---
@@ -27,9 +29,9 @@ We love `rvm`, so the application has an `.rvmrc` generated to specify a gemset.
 Generators
 ----------
 
-This also gives you the Factory Girl and Haml Rails 3 generators &mdash; the
+This also gives you the Factory Girl Rails 3 generators &mdash; the
 generators for RSpec are in the RSpec gem &mdash; so that your factories and
-views are generated using Factory Girl and Haml, and that all your generated
+views are generated using Factory Girl, and that all your generated
 tests are specs. These generators are from the **rails3_generators** gem, we
 pulled them out to avoid all the other dependencies included in that gem.
 
